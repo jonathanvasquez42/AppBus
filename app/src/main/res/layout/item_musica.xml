@@ -1,0 +1,34 @@
+<!--<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    card_view:cardBackgroundColor="@android:color/transparent"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="8dp">
+-->
+
+<RelativeLayout android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+        <!-- titulo de la categoria -->
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#091C47"
+            android:typeface="sans"
+            android:textSize="20dp"
+            android:text="hola"
+            android:layout_gravity="center|bottom"
+            android:layout_centerVertical="true" />
+
+
+    </RelativeLayout>
+<!--
+</android.support.v7.widget.CardView>
+-->

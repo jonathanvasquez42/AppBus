@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pelicula"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Pelicula" />
+        <item
+            android:id="@+id/nav_musica"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Música" />
+        <item
+            android:id="@+id/nav_libro"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Libro" />
+
+    </group>
+
+    <item android:title="Nombre Empresa">
+        <menu>
+            <item
+                android:id="@+id/nav_videoseguridad"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Video Seguridad" />
+            <item
+                android:id="@+id/nav_encuesta"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Encuesta de Servicio" />
+            <item
+                android:id="@+id/nav_nosotros"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Nosotros" />
+        </menu>
+    </item>
+
+
+</menu>

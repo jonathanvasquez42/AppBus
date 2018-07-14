@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.nombrempresa.appfun.musica.CategoriaMusicaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <fragment
+                android:id="@+id/fragment_categoriaChilena"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.musica.fragment.categoriaChilena"
+                />
+
+            <fragment
+                android:id="@+id/fragment_categoriaLatina"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.musica.fragment.categoriaLatina"
+                />
+
+            <fragment
+                android:id="@+id/fragment_categoriaPop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.musica.fragment.categoriaPop"
+                />
+
+            <fragment
+                android:id="@+id/fragment_categoriaNoventa"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.musica.fragment.categoriaNoventa"
+                />
+
+            <fragment
+                android:id="@+id/fragment_categoriaRock"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.musica.fragment.categoriaRock"
+                />
+
+            <fragment
+                android:id="@+id/fragment_categoriaReggaeton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.musica.fragment.categoriaReggaeton"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

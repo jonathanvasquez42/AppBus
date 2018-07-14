@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.nombrempresa.appfun.pelicula.BlankFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <fragment
+                android:id="@+id/fragment_accion"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.pelicula.fragment.categoriaAccion"
+                />
+
+            <fragment
+                android:id="@+id/fragment_animacion"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.pelicula.fragment.categoriaAnimacion"
+                />
+
+            <fragment
+                android:id="@+id/fragment_clasico"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.pelicula.fragment.categoriaClasico"
+                />
+
+            <fragment
+                android:id="@+id/fragment_terror"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.pelicula.fragment.categoriaTerror"
+
+                />
+
+            <fragment
+                android:id="@+id/fragment_comedia"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.pelicula.fragment.categoriaComedia"
+                />
+
+            <fragment
+                android:id="@+id/fragment_documental"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.pelicula.fragment.categoriaDocumental"
+                />
+
+            <fragment
+                android:id="@+id/fragment_familia"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.pelicula.fragment.categoriaFamilia"
+                />
+
+            <fragment
+                android:id="@+id/fragment_drama"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                class="cl.nombrempresa.appfun.pelicula.fragment.categoriaDrama"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
